@@ -7,7 +7,6 @@ total_votes = int(input("What is the total number of votes in the election? "))
 
 
 
-
 message_to_candidate = (
     f"You received {candidate_votes} number of votes. "
     f"The total number of votes in the election was {total_votes}. "
