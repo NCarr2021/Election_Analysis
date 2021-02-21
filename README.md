@@ -10,21 +10,20 @@ is typically done in Excel using the election data provided in a comma delimited
 manager wants it automated using Python to process the results. If using Python is successful, 
 this automation will be used to audit other congressional districts, senatorial districts and local elections.
 
+
 ## 2. Election-Audit Results:
 
 Specific screen shots taken from the election_results.txt file.
 Coding specific shots (shown with borders) taken from the Python source code **PyPoll_Challenge.py**.
 The summary output as follows.
 
-<img src"Analysis2Terminal.png" width="400" height="400">
 ![](Analysis2Terminal.png)
 
 - How many votes were cast in this congressional election?
-  A total of 369,711 votes were cast in the three counties.
+  A total of 369,711 votes were cast in the three counties (refer to Election Results image).
   All records in the **election_results.csv** file were read by the Python script.
 
-<img src"input_file.png" width="400" height="400">
-![](input_file.png)                   
+![](input_file.png)
 
 - Provide a breakdown of the number of votes and the percentage of total votes for each country in the precinct.
   Votes were counted and summarized by county.
@@ -54,7 +53,7 @@ The summary output as follows.
 ![](candidate_sum.png)
 
  
-## 3. Election Audit Summary:
+ ## 3. Election Audit Summary:
 
 This Python script provided all the required information: total votes cast, votes by county, largest
 turnout by county, total votes for each candidate, percentage of votes for each candidate and the 
