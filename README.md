@@ -47,43 +47,43 @@ congressional election.
       Coding specific shots (shown with borders) taken from the Python source code **PyPoll_Challenge.py**.
       The summary output as follows.
 
-          ![](/NCarr2021/Election_Analysis/Analysis2Terminal.png)
-         
+          ![](Analysis2Terminal.png)
+                    
       - How many votes were cast in this congressional election?
         A total of 369,711 votes were cast in the three counties.
         All records in the **election_results.csv** file were read by the Python script.
 
-            ![](/NCarr2021/Election_Analysis/input_file.png)
+            ![](input_file.png)
                    
-            ![](/NCarr2021/Election_Analysis/input_read_file.png)
+            ![](input_read_file.png)
 
 
       - Provide a breakdown of the number of votes and the percentage of total votes for each country in the precinct.
         Votes were counted and summarized by county.
         Total vote count and percentage of total votes is provided.
 
-             ![](/NCarr2021/Election_Analysis/county_results.png)
+             ![](county_results.png)
 
       - Which county had the largest number of votes?
         Votes were accumulated when details read by county.
         The largest county turnout was for **Denver**.
 
-              ![](/NCarr2021/Election_Analysis/calc_county_totals.png)
+              ![](calc_county_totals.png)
 
-              ![](/NCarr2021/Election_Analysis/largest_turnout.png)
+              ![](largest_turnout.png)
 
       - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
 
-             ![](NCarr2021/Election_Analysis/candidates_votes_sum.png)
+             ![](candidates_votes_sum.png)
 
-             ![](NCarr2021/Election_Analysis/candidate_votes.png)
+             ![](candidate_votes.png)
 
       - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
         The winning candicate was Diana DeGette with vote count of 272,892 and percentage 73.8.
 
-             ![](NCarr2021/Election_Analysis/winning_candidate.png)
+             ![](winning_candidate.png)
 
-             ![](NCarr2021/Election_Analysis/candidate_sum.png)
+             ![](candidate_sum.png)
 
  
 ## 3. Election Audit Summary:
