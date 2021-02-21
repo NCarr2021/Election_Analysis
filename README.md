@@ -47,15 +47,15 @@ congressional election.
       Coding specific shots (shown with borders) taken from the Python source code **PyPoll_Challenge.py**.
       The summary output as follows.
 
-      <img src="/analysis/Analysis2terminal.png" width="300" height="400">
-
+         ![](/analysis/Analysis2Terminal.png)
+         
       - How many votes were cast in this congressional election?
         A total of 369,711 votes were cast in the three counties.
         All records in the **election_results.csv** file were read by the Python script.
 
-            <img src="input_file.png" width="100">
+            <img src="input_file.png" width="200" height="200">
 
-           <img src="input_read_file.png" width="100">
+            <img src="input_read_file.png" width="100">
 
 
       - Provide a breakdown of the number of votes and the percentage of total votes for each country in the precinct.
@@ -78,7 +78,7 @@ congressional election.
 
              <img src="candidate_votes.png" width="200">
 
-        - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+      - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
         The winning candicate was Diana DeGette with vote count of 272,892 and percentage 73.8.
 
              <img src="winning_candidate.png" width="200">
