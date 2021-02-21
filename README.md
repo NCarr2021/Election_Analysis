@@ -47,7 +47,7 @@ congressional election.
       Coding specific shots (shown with borders) taken from the Python source code **PyPoll_Challenge.py**.
       The summary output as follows.
 
-      <img src="Analysis2terminal.png" width="100">
+      <img src="/analysis/Analysis2terminal.png" width="300" height="400">
 
       - How many votes were cast in this congressional election?
         A total of 369,711 votes were cast in the three counties.
