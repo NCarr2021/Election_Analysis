@@ -47,7 +47,7 @@ congressional election.
       Coding specific shots (shown with borders) taken from the Python source code **PyPoll_Challenge.py**.
       The summary output as follows.
 
-         ![](Analysis2Terminal.png)
+          ![](Analysis2Terminal.png)
          
       - How many votes were cast in this congressional election?
         A total of 369,711 votes were cast in the three counties.
@@ -68,22 +68,22 @@ congressional election.
         Votes were accumulated when details read by county.
         The largest county turnout was for **Denver**.
 
-              <img src="calc_county_totals.png" width="100">
+              <img src="calc_county_totals.png" width="200" height="200">
 
-              <img src="largest_turnout.png" width="100">
+              <img src="largest_turnout.png" width="100" height="200">
 
       - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
 
-             <img src="candidates_votes_sum.png" width="200">
+             <img src="candidates_votes_sum.png" width="200" height="200">
 
-             <img src="candidate_votes.png" width="200">
+             <img src="candidate_votes.png" width="300" height="300">
 
       - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
         The winning candicate was Diana DeGette with vote count of 272,892 and percentage 73.8.
 
-             <img src="winning_candidate.png" width="200">
+             <img src="winning_candidate.png" width="200" height="200">
 
-             <img src="candidate_sum.png" width="200">
+             <img src="candidate_sum.png" width="200" height="200">
 
  
 ## 3. Election Audit Summary:
