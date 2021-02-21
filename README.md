@@ -47,43 +47,43 @@ congressional election.
       Coding specific shots (shown with borders) taken from the Python source code **PyPoll_Challenge.py**.
       The summary output as follows.
 
-          ![](Analysis2Terminal.png)
+          ![](/NCarr2021/Election_Analysis/Analysis2Terminal.png)
          
       - How many votes were cast in this congressional election?
         A total of 369,711 votes were cast in the three counties.
         All records in the **election_results.csv** file were read by the Python script.
 
-            ![](input_file.png)
-
-            ![](input_read_file.png)
+            ![](/NCarr2021/Election_Analysis/input_file.png)
+                   
+            ![](/NCarr2021/Election_Analysis/input_read_file.png)
 
 
       - Provide a breakdown of the number of votes and the percentage of total votes for each country in the precinct.
         Votes were counted and summarized by county.
         Total vote count and percentage of total votes is provided.
 
-             ![](county_results.png)
+             ![](/NCarr2021/Election_Analysis/county_results.png)
 
       - Which county had the largest number of votes?
         Votes were accumulated when details read by county.
         The largest county turnout was for **Denver**.
 
-              <img src="calc_county_totals.png" width="200" height="200">
+              ![](/NCarr2021/Election_Analysis/calc_county_totals.png)
 
-              <img src="largest_turnout.png" width="100" height="200">
+              ![](/NCarr2021/Election_Analysis/largest_turnout.png)
 
       - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
 
-             <img src="candidates_votes_sum.png" width="200" height="200">
+             ![](NCarr2021/Election_Analysis/candidates_votes_sum.png)
 
-             <img src="candidate_votes.png" width="300" height="300">
+             ![](NCarr2021/Election_Analysis/candidate_votes.png)
 
       - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
         The winning candicate was Diana DeGette with vote count of 272,892 and percentage 73.8.
 
-             <img src="winning_candidate.png" width="200" height="200">
+             ![](NCarr2021/Election_Analysis/winning_candidate.png)
 
-             <img src="candidate_sum.png" width="200" height="200">
+             ![](NCarr2021/Election_Analysis/candidate_sum.png)
 
  
 ## 3. Election Audit Summary:
@@ -97,8 +97,9 @@ congressional election.
       1.	Modify script to read input file using different path or filename. 
       For the input or output files, modify path and filename in the os.path.join details.
       The field delimiter can also be specified i.e. a ‘|’.
-      file_to_load = **os.path.join("Resources", "election_results.csv")**
-      file_to_save = **os.path.join("analysis", "election_results.txt")**
+      
+        file_to_load = **os.path.join("Resources", "election_results.csv")**
+        file_to_save = **os.path.join("analysis", "election_results.txt")**
 
       2.	The format of the election_results.csv file included three columns: Ballot ID, County, Candidate
       Files containing different heading columns will need changing to reflect these headings.
